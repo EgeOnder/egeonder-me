@@ -1,0 +1,105 @@
+* {
+  	box-sizing: border-box;
+}
+
+body {
+	font-family: "Anonymous Pro", monospace !important;
+	margin: 0;
+	padding: 0;
+}
+
+::-moz-selection {
+	color: #ffffff;
+	background: #00ff00;
+}
+
+::selection {
+	color: #ffffff;
+	background: #00ff00;
+}
+
+.no-style-a {
+	color: white;
+}
+
+.no-style-a:hover {
+	text-decoration: none;
+	opacity: 80%;
+}
+
+nav {
+	background-color: black !important;
+}
+
+nav a, nav ul li a {
+	color: #00ff00;
+}
+
+nav a:hover, nav ul li a:hover {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.home {
+	height: calc(100vh - 56px);
+	background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-section {
+	top: 20%;
+	left: 10%;
+	position: absolute;
+	color: #ffffff;
+}
+
+.home-p {
+	max-width: 50%;
+	font-size: larger;
+	padding: 1rem;
+}
+
+.home-header {
+	letter-spacing: 1rem;
+	font-weight: bold;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+.projects {
+	height: calc(200vh - 56px);
+	background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+	position: relative;
+}
+
+.project-container {
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	color: #ffffff;
+}
+
+.project-item {
+	padding: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.skills {
+	height: calc(200vh - 56px);
+	background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+	position: relative;
+}
+
+.skills-container {
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	color: #ffffff;
+}
+
+.skills-item {
+	padding: 1rem;
+}

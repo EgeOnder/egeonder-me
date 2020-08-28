@@ -8,6 +8,7 @@ require('dotenv').config();
 app = express();
 
 app.use(helmet())
+   .use(express.static('./public'))
    .use(morgan('tiny'));
 
 app.get('/', (req, res) => {
