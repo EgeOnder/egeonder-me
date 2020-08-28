@@ -1,0 +1,28 @@
+{
+  "name": "egeonder-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgeOnder/egeonder-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EgeOnder/egeonder-me/issues"
+  },
+  "homepage": "https://github.com/EgeOnder/egeonder-me#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
